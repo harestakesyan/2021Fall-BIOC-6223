@@ -30,5 +30,11 @@
 		"Length in bp": "3255",
 		"Accession number": "NM_001306069",
 		"Reference link": "https: //www.ncbi.nlm.nih.gov/nuccore/NM_001306069.1"
+	},
+	{
+		"Gene name": "Strn",
+		"Length in bp": "7994",
+		"Accession number": "NM_011500",
+		"Reference link": "https: //www.ncbi.nlm.nih.gov/nuccore/NM_011500.3"
 	}
 ]
