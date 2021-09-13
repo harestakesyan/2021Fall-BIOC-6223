@@ -1,0 +1,40 @@
+[{
+		"Genes of interest": ["Edn1", "Pkd2l1", "Atp1b1", "Agtr1a", "Adipor1"]
+	},
+	{
+		"Gene name": "Edn1",
+		"Length in bp": "2143",
+		"Accession number": "NM_010104",
+		"Reference link": "https://www.ncbi.nlm.nih.gov/nuccore/NM_010104.4"
+	},
+	{
+		"Gene name": "Pkd2l1",
+		"Length in bp": "3321",
+		"Accession number": "NM_181422.3",
+		"Reference link": "https://www.ncbi.nlm.nih.gov/nuccore/NM_181422.3"
+	},
+	{
+		"Gene name": "Atp1b1",
+		"Length in bp": "2590",
+		"Accession number": "NM_009721",
+		"Reference link": "https://www.ncbi.nlm.nih.gov/nuccore/NM_009721.6"
+	},
+	{
+		"Gene name": "Agtr1a",
+		"Length in bp": "2284",
+		"Accession number": "NM_177322",
+		"Reference link": "https://www.ncbi.nlm.nih.gov/nuccore/NM_177322.3"
+	},
+	{
+		"Gene name": "Adipor1",
+		"Length in bp": "3255",
+		"Accession number": "NM_001306069",
+		"Reference link": "https: //www.ncbi.nlm.nih.gov/nuccore/NM_001306069.1"
+	},
+	{
+		"Gene name": "Strn",
+		"Length in bp": "7994",
+		"Accession number": "NM_011500",
+		"Reference link": "https: //www.ncbi.nlm.nih.gov/nuccore/NM_011500.3"
+	}
+]
