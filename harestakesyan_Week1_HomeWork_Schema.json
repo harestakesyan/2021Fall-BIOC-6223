@@ -11,17 +11,71 @@
         "Reference link"
     ],
     "properties": {
-        "Gene name": {
-            "type": "array",
-            "description": "List of the genes related to hypertension research.",
+      "Gene name": {
+        "type": "object",
+          "description": "List of the genes related to hypertension research.",
             "items": {
-                "type": "string",
+              "type": "string",
                 "description": "Genes involved in the hypertension development in Mus musculus.",
-                "examples": [
+                  "examples": [
                     "Edn1",
                     "Pkd2l1",
                     "Atp1b1",
                     "Agtr1a",
                     "Adipor1"
-                ]
-            }
+                  ],
+                    "properties": {
+                "Lenght in bp" : {
+                  "type": "object",
+                    "description": "List of the base pairs of the genes of interest.",
+                      "items": {
+                        "type": "string",
+                          "description": "Lenght of the genes of the interest in base pairs",
+                "required": [
+                    "2143",
+                    "3321",
+                    "2590",
+                    "2284",
+                    "3255"
+                ],
+                  "properties": {
+                  "Accession number": {
+                    "type": "object",
+                      "description": "List of accession numbers of the genes of interest based on NCBI database",
+                        "items": {
+                          "type": "string",
+                            "description": "Accession numbers for the genes involved in the hypertension development",
+                        "examples":[
+                          "NM_010104",
+                          "NM_181422.3",
+                          "NM_009721",
+                          "NM_177322",
+                          "NM_001306069"
+                          ],
+                          "properties": {
+                            "Reference link": {
+                              "type": "object",
+                                "description": "List of reference links to the NCBI database.",
+                                  "items": {
+                                    "type": "string",
+                                      "description": "Hyperlink to the NCBI database for the gene of interest",
+                                        "examples":[
+                                          "https://www.ncbi.nlm.nih.gov/nuccore/NM_010104.4",
+                                          "https://www.ncbi.nlm.nih.gov/nuccore/NM_181422.3",
+                                          "https://www.ncbi.nlm.nih.gov/nuccore/NM_009721.6",
+                                          "https://www.ncbi.nlm.nih.gov/nuccore/NM_177322.3",
+                                          "https://www.ncbi.nlm.nih.gov/nuccore/NM_001306069.1"
+                                          ],
+                                  },
+                                  },
+                            },
+                          },
+                },
+              },
+                },
+                    },
+            },
+                    },
+            },
+      },
+    }
