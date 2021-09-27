@@ -1,7 +1,7 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
     "$id": "https://raw.githubusercontent.com/harestakesyan/2021Fall-BIOC-6223/main/harestakesyan_Week1_HomeWork_Schema.json",
-    "type": "object",
+    "type": "array",
     "title": "Genes of interest",
     "description": "Important genes involved in the development of hypertension in Mus musculus.",
     "required": [
